@@ -6,3 +6,4 @@ Step2: helm repo update
 Step3: $ helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack
 
 Now do the kubectl get po --> you will get list of pods, out of them go for prometheus-kube-prometheus-stack-prometheus-0 and port-forward it, then you can access the prometheus in your local
+https://dev.to/austincunningham/get-prometheus-metrics-from-a-express-js-app-53ck 
